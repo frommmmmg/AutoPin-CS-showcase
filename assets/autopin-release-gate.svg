@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13">
+<rect width="760" height="430" rx="14" fill="#0f172a"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#94a3b8"/></marker></defs>
+<text x="380.0" y="34" text-anchor="middle" fill="#e2e8f0" font-size="15" font-weight="600">Client release gate</text>
+<rect x="30" y="60" width="150" height="62" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="105.0" y="89.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Build</text>
+<text x="105.0" y="106.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">full core package</text>
+<rect x="215" y="60" width="150" height="62" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="290.0" y="89.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Register</text>
+<text x="290.0" y="106.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">stored, not active</text>
+<rect x="400" y="60" width="150" height="62" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="475.0" y="89.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Canary machine</text>
+<text x="475.0" y="106.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">pinned to the build</text>
+<rect x="585" y="60" width="150" height="62" rx="8" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="660.0" y="89.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Collect evidence</text>
+<text x="660.0" y="106.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">heartbeats, logs, desktop</text>
+<path d="M180 91 L213 91" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M365 91 L398 91" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M550 91 L583 91" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M660 167 L735 205 L660 243 L585 205 Z" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+<text x="660" y="203" text-anchor="middle" fill="#e2e8f0" font-weight="600">All gates</text><text x="660" y="219" text-anchor="middle" fill="#94a3b8" font-size="11.5">pass?</text>
+<path d="M660 122 L660 165" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="300" y="170" width="170" height="70" rx="8" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
+<text x="385.0" y="203.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Restore policy</text>
+<text x="385.0" y="220.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">then activate globally</text>
+<path d="M584 205 L472 205" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<text x="560" y="197" text-anchor="middle" fill="#34d399" font-size="12" font-weight="600">yes</text>
+<rect x="30" y="170" width="200" height="70" rx="8" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
+<text x="130.0" y="203.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Auto clients upgrade</text>
+<text x="130.0" y="220.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">manual clients wait</text>
+<path d="M298 205 L232 205" stroke="#34d399" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<text x="674" y="263" fill="#f87171" font-size="12" font-weight="600">no</text>
+<path d="M660 243 L660 292" stroke="#f87171" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<rect x="560" y="294" width="200" height="66" rx="8" fill="#1e293b" stroke="#f87171" stroke-width="1.5"/>
+<text x="660.0" y="325.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Keep inactive</text>
+<text x="660.0" y="342.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">preserve the evidence</text>
+<rect x="300" y="294" width="200" height="66" rx="8" fill="#1e293b" stroke="#f87171" stroke-width="1.5"/>
+<text x="400.0" y="325.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Restore the machine</text>
+<text x="400.0" y="342.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">verified recovery path</text>
+<rect x="30" y="294" width="220" height="66" rx="8" fill="#1e293b" stroke="#f87171" stroke-width="1.5"/>
+<text x="140.0" y="325.0" text-anchor="middle" fill="#e2e8f0" font-weight="600">Record bug + sibling sweep</text>
+<text x="140.0" y="342.0" text-anchor="middle" fill="#94a3b8" font-size="11.5">look for the same defect</text>
+<path d="M558 327 L502 327" stroke="#f87171" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<path d="M298 327 L252 327" stroke="#f87171" stroke-width="1.5" fill="none" marker-end="url(#a)"/>
+<text x="380.0" y="404" text-anchor="middle" fill="#94a3b8" font-size="12">Acceptance is never relaxed to get a release through.</text>
+</svg>

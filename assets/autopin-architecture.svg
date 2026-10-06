@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13">
+  <rect width="760" height="320" rx="14" fill="#0f172a"/>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#94a3b8"/></marker></defs>
+  <g fill="#1e293b" stroke="#a78bfa" stroke-width="1.5">
+    <rect x="30" y="30" width="150" height="60" rx="8"/>
+    <rect x="30" y="130" width="150" height="60" rx="8"/>
+    <rect x="30" y="230" width="150" height="60" rx="8"/>
+    <rect x="280" y="110" width="190" height="100" rx="8"/>
+    <rect x="570" y="30" width="160" height="60" rx="8"/>
+    <rect x="570" y="130" width="160" height="60" rx="8"/>
+    <rect x="570" y="230" width="160" height="60" rx="8"/>
+  </g>
+  <g fill="#e2e8f0" text-anchor="middle">
+    <text x="105" y="56">Operator</text><text x="105" y="74" fill="#94a3b8">natural language</text>
+    <text x="105" y="156">AI agent skills</text><text x="105" y="174" fill="#94a3b8">runbooks as code</text>
+    <text x="105" y="256">Release pipeline</text><text x="105" y="274" fill="#94a3b8">build · canary · activate</text>
+    <text x="375" y="154">Scheduler + admin</text><text x="375" y="174" fill="#94a3b8">Flask · uWSGI · MySQL</text>
+    <text x="650" y="56">Client fleet A</text><text x="650" y="74" fill="#94a3b8">Python daemons</text>
+    <text x="650" y="156">Client fleet B</text><text x="650" y="174" fill="#94a3b8">browser automation</text>
+    <text x="650" y="256">Canary client</text><text x="650" y="274" fill="#94a3b8">verified before rollout</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="1.5" marker-end="url(#a)" fill="none">
+    <path d="M105 90 L105 130"/><path d="M180 160 L280 160"/><path d="M105 190 L105 230"/>
+    <path d="M180 260 L280 200"/>
+    <path d="M470 140 L570 65"/><path d="M470 160 L570 160"/><path d="M470 190 L570 255"/>
+  </g>
+</svg>
