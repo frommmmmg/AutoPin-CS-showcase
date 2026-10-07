@@ -6,6 +6,8 @@ English · [中文](README.zh.md) · [Español](README.es.md) · [Deutsch](READM
 
 [GitHub @frommmmmg](https://github.com/frommmmmg)
 
+✍️ By **姜芊泽 (Jiang Qianze)** · WeChat Official Account: **Pin海引航**
+
 </div>
 
 > **This repository is a showcase, not a source release.** AutoPin-CS is closed-source, so there is no code here, only what it does, how it is built and what it looks like. To talk about it, get in touch through my [GitHub profile](https://github.com/frommmmmg).
@@ -61,6 +63,18 @@ Running a large fleet of unattended desktop clients is mostly an operations prob
 - **Recovery is designed before it is needed.** Rollback paths, a verified restore route for the canary machine and a full-installer recovery playbook are written down, and the original failure logs are kept rather than overwritten.
 - **Secrets stay out of code and command lines.** Credentials live in the operating system's keychain and are handed to tools at the moment of use.
 - **Agents follow the same rules as people.** The agent skills are version-controlled in the repository, carry the same safety rules (no skipping the canary, no guessing which entry point a log came from) and must finish by confirming that the change was pushed.
+
+<!--author-->
+## About the author
+
+<img src="assets/wechat-qr.png" alt="QR code of the WeChat Official Account Pin海引航" width="200" align="right">
+
+**姜芊泽 (Jiang Qianze)** is a pen name. I am an independent developer who builds tools, data and automation for brands, merchants and creators going global. Every project in these showcases was designed, built and run end to end by me alone, from the product idea to the servers and the documentation.
+
+I write about this work on my WeChat Official Account, **Pin海引航** (in Chinese). Scan the code to follow it, or find me on [GitHub](https://github.com/frommmmmg).
+
+<br clear="right">
+<!--/author-->
 
 **Other showcases:** [AffProof](https://github.com/frommmmmg/AffProof-showcase) · [Tonu.app](https://github.com/frommmmmg/Tonu.app-showcase) · [AffiliateScraper](https://github.com/frommmmmg/AffiliateScraper-showcase)
 

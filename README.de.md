@@ -6,6 +6,8 @@
 
 [GitHub @frommmmmg](https://github.com/frommmmmg)
 
+✍️ Von **姜芊泽 (Jiang Qianze)** · WeChat-Offizialkonto: **Pin海引航**
+
 </div>
 
 > **Dieses Repository ist ein Schaufenster, keine Quellcode-Veröffentlichung.** AutoPin-CS ist nicht quelloffen, deshalb gibt es hier keinen Code, nur was es kann, wie es gebaut ist und wie es aussieht. Wenn du darüber sprechen möchtest, melde dich über mein [GitHub-Profil](https://github.com/frommmmmg).
@@ -61,6 +63,18 @@ Eine große Flotte unbeaufsichtigter Desktop-Clients zu betreiben ist vor allem 
 - **Wiederherstellung wird entworfen, bevor man sie braucht.** Rollback-Wege, ein geprüfter Wiederherstellungsweg für die Canary-Maschine und ein Wiederherstellungs-Playbook mit vollständigem Installer sind aufgeschrieben, und die ursprünglichen Fehlerprotokolle bleiben erhalten, statt überschrieben zu werden.
 - **Geheimnisse bleiben aus Code und Kommandozeile heraus.** Zugangsdaten liegen im Schlüsselbund des Betriebssystems und werden den Werkzeugen erst im Moment der Nutzung übergeben.
 - **Agenten folgen denselben Regeln wie Menschen.** Die Agenten-Skills sind im Repository versioniert, tragen dieselben Sicherheitsregeln (den Canary nie überspringen, nicht raten, von welchem Einstiegspunkt ein Log stammt) und müssen mit der Bestätigung enden, dass die Änderung gepusht wurde.
+
+<!--author-->
+## Über den Autor
+
+<img src="assets/wechat-qr.png" alt="QR-Code des WeChat-Offizialkontos Pin海引航" width="200" align="right">
+
+**姜芊泽 (Jiang Qianze)** ist ein Pseudonym. Ich bin unabhängiger Entwickler und baue Werkzeuge, Daten und Automatisierung für Marken, Händler und Creator, die ins Ausland expandieren. Jedes Projekt in diesen Vorstellungen habe ich allein entworfen, gebaut und betrieben, von der Produktidee bis zu Servern und Dokumentation.
+
+Über diese Arbeit schreibe ich in meinem WeChat-Offizialkonto **Pin海引航** (auf Chinesisch). Scanne den Code, um ihm zu folgen, oder finde mich auf [GitHub](https://github.com/frommmmmg).
+
+<br clear="right">
+<!--/author-->
 
 **Weitere Projekte:** [AffProof](https://github.com/frommmmmg/AffProof-showcase) · [Tonu.app](https://github.com/frommmmmg/Tonu.app-showcase) · [AffiliateScraper](https://github.com/frommmmmg/AffiliateScraper-showcase)
 

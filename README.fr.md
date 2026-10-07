@@ -6,6 +6,8 @@
 
 [GitHub @frommmmmg](https://github.com/frommmmmg)
 
+✍️ Par **姜芊泽 (Jiang Qianze)** · compte officiel WeChat: **Pin海引航**
+
 </div>
 
 > **Ce dépôt est une vitrine, pas une publication de code source.** AutoPin-CS n'est pas open source : il n'y a donc pas de code ici, seulement ce qu'il fait, comment il est construit et à quoi il ressemble. Pour en discuter, contactez-moi via mon [profil GitHub](https://github.com/frommmmmg).
@@ -61,6 +63,18 @@ Exploiter une grande flotte de clients de bureau sans surveillance est avant tou
 - **La reprise est conçue avant d'être nécessaire.** Les chemins de retour arrière, une voie de restauration vérifiée pour la machine canari et un guide de reprise avec installateur complet sont écrits, et les journaux de l'échec d'origine sont conservés plutôt qu'écrasés.
 - **Les secrets restent hors du code et de la ligne de commande.** Les identifiants vivent dans le trousseau du système et ne sont remis aux outils qu'au moment de l'usage.
 - **Les agents suivent les mêmes règles que les personnes.** Les compétences des agents sont versionnées dans le dépôt, portent les mêmes règles de sécurité (ne jamais sauter le canari, ne pas deviner de quel point d'entrée vient un journal) et doivent se terminer en confirmant que le changement a été poussé.
+
+<!--author-->
+## À propos de l'auteur
+
+<img src="assets/wechat-qr.png" alt="QR code du compte officiel WeChat Pin海引航" width="200" align="right">
+
+**姜芊泽 (Jiang Qianze)** est un pseudonyme. Je suis un développeur indépendant qui crée des outils, des données et de l'automatisation pour les marques, marchands et créateurs qui visent l'international. Chaque projet de ces vitrines a été conçu, construit et exploité par moi seul, de l'idée du produit jusqu'aux serveurs et à la documentation.
+
+J'écris sur ce travail sur mon compte officiel WeChat, **Pin海引航** (en chinois). Scannez le code pour le suivre, ou retrouvez-moi sur [GitHub](https://github.com/frommmmmg).
+
+<br clear="right">
+<!--/author-->
 
 **Autres vitrines:** [AffProof](https://github.com/frommmmmg/AffProof-showcase) · [Tonu.app](https://github.com/frommmmmg/Tonu.app-showcase) · [AffiliateScraper](https://github.com/frommmmmg/AffiliateScraper-showcase)
 

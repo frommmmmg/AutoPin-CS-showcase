@@ -6,6 +6,8 @@
 
 [GitHub @frommmmmg](https://github.com/frommmmmg)
 
+✍️ 作者 **姜芊泽** · 微信公众号: **Pin海引航**
+
 </div>
 
 > **本仓库仅用于展示，不公开源码。** AutoPin-CS 不开源，所以这里没有代码，只介绍它做什么、怎么构建、长什么样。想聊聊它，请通过我的 [GitHub 主页](https://github.com/frommmmmg)联系我。
@@ -61,6 +63,18 @@
 - **恢复路径在需要之前就设计好了。** 回滚路径、金丝雀机器的已验证恢复通道、完整安装器恢复手册都有书面记录，原始的失败日志会被保留，而不是被覆盖。
 - **密钥不进代码，也不进命令行。** 凭据放在操作系统的钥匙串里，工具用到时才交给它。
 - **Agent 守的规矩和人一样。** Agent 技能和代码一起受版本控制，带着同样的安全规则（不许跳过金丝雀、不许凭猜测判断日志来自哪个入口），并且必须以确认改动已推送作为收尾。
+
+<!--author-->
+## 关于作者
+
+<img src="assets/wechat-qr.png" alt="微信公众号 Pin海引航 的二维码" width="200" align="right">
+
+**姜芊泽** 是我的笔名。我是一名独立开发者，致力于为出海品牌、商家和创作者提供工具、数据和自动化方案。这些展示里的每个项目，从产品想法到服务器和文档，都是我一个人设计、构建并运营的。
+
+我在微信公众号 **Pin海引航** 上写这方面的内容。扫码关注，或者到 [GitHub](https://github.com/frommmmmg) 找我。
+
+<br clear="right">
+<!--/author-->
 
 **其他项目展示:** [AffProof](https://github.com/frommmmmg/AffProof-showcase) · [Tonu.app](https://github.com/frommmmmg/Tonu.app-showcase) · [AffiliateScraper](https://github.com/frommmmmg/AffiliateScraper-showcase)
 
